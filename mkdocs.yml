@@ -101,13 +101,9 @@ nav:
       - ArcGIS Pro: "software/ArcGISPro.ipynb"
   - Lectures:
       - Week 1 Lecture: "Lectures/week01.ipynb"
-      - Week 2 Lecture: "Lectures/Week02PyFdMetal.ipynb"
-      - Week 3 Lecture: "Lectures/Week03Fundamental02.ipynb"
-      - Week 4 Lecture: "Lectures/Week04_Pandas.ipynb"
+    
   - Demo:
       - Week 1 Demo: "Demo/Week01_Python_Intro.ipynb"
   - Labs:
       - Lab 01: "Labs/Lab01_student.ipynb"
-      - Lab 02: "Labs/Lab02_student.ipynb"
-      - Lab 03: "Labs/Lab03_student.ipynb"
  
