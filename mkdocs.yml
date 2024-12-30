@@ -99,10 +99,9 @@ nav:
       - Git: "software/Git.ipynb"
       - Command Prompt: "software/command_prompt.ipynb"
       - ArcGIS Pro: "software/ArcGISPro.ipynb"
+      - Troubleshooting: "Demo/Troubleshooting.ipynb"
   - Lectures:
-      - Week 1 Lecture: "Lectures/Week01_Intro.ipynb"
-  - Demo:
-      - Week 1 Demo: "Demo/Troubleshooting.ipynb"
+      - Week 1 Lecture: "Lectures/Week01/Week01_Intro.ipynb"
   - Labs:
       - Lab 01: "Labs/Lab01_instructor.ipynb"
  
