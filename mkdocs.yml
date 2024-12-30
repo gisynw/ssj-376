@@ -1,5 +1,5 @@
-site_name: Clark SSJ 302 Python
-site_description: Clark SSJ 302 Python Programming Class Content
+site_name: Clark SSJ SSJ 376 Spatial Database
+site_description: Clark SSJ SSJ 376 Spatial Database Content
 site_author: Yanan Wu
 site_url: https://gisynw.github.io/ssj-376
 copyright: "Copyright &copy; 2024 - 2025 Yanan Wu"
@@ -95,15 +95,14 @@ nav:
     - Syllabus Fall 2024: "Content/syllabus.ipynb"
   - Softwares:
       - Anaconda: "software/Anaconda.ipynb"
-      - Visual Studio Code: "software/Week01_Python_Intro.ipynb"
+      - Visual Studio Code: "software/Visual-Studio-Code.ipynb"
       - Git: "software/Git.ipynb"
       - Command Prompt: "software/command_prompt.ipynb"
       - ArcGIS Pro: "software/ArcGISPro.ipynb"
   - Lectures:
-      - Week 1 Lecture: "Lectures/week01.ipynb"
-    
+      - Week 1 Lecture: "Lectures/week01_Intro.ipynb"
   - Demo:
-      - Week 1 Demo: "Demo/Week01_Python_Intro.ipynb"
+      - Week 1 Demo: "Demo/Tourbleshooting.ipynb"
   - Labs:
-      - Lab 01: "Labs/Lab01_student.ipynb"
+      - Lab 01: "Labs/Lab01_instructor.ipynb"
  
