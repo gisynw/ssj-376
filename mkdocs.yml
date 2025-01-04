@@ -102,7 +102,7 @@ nav:
       - Troubleshooting: "Demo/Troubleshooting.ipynb"
   - Lectures:
       - Week 1 Lecture: "Lectures/Week01/Week01_Intro.ipynb"
-      - Week 2 Lecture: "Lectures/Week02/Week02_SoftwareInstallation.pdf"
+      - Week 2 Lecture: "Lectures/Week02/Week02_Intro_PostGIS.pdf"
   - Labs:
-      - Lab 01: "Labs/Lab01_instructor.ipynb"
+      - Lab 01: "Labs/Lab01/Lab01.ipynb"
  
