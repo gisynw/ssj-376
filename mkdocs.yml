@@ -100,6 +100,7 @@ nav:
       - Command Prompt: "software/command_prompt.ipynb"
       - ArcGIS Pro: "software/ArcGISPro.ipynb"
       - Troubleshooting: "Demo/Troubleshooting.ipynb"
+      - Remote Connection to PostgreSQL: "docs/software/remote_connection_to_PostgreSQL.pdf"
   - Lectures:
       - Week 1 Lecture: "Lectures/Week01/Week01_Intro.ipynb"
       - Week 1 Software Installation: "Lectures/Week01/Week01_SoftwareInstallation.pdf"
