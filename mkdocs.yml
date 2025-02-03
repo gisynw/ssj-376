@@ -106,6 +106,7 @@ nav:
       - Week 1 Software Installation: "Lectures/Week01/Week01_SoftwareInstallation.pdf"
       - Week 2 Lecture: "Lectures/Week02/Week02_Intro_PostGIS.pdf"
       - Week 3 Lecture: "Lectures/Week03/Week03_SpatialData.pdf"
+      - Week 4 Lecture: "Lectures/Week04/Week04_SimpleSQL.pdf"
   - Labs:
       - Lab 01: "Labs/Lab01/Lab01.ipynb"
  
