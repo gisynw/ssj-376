@@ -107,6 +107,11 @@ nav:
       - Week 2 Lecture: "Lectures/Week02/Week02_Intro_PostGIS.pdf"
       - Week 3 Lecture: "Lectures/Week03/Week03_SpatialData.pdf"
       - Week 4 Lecture: "Lectures/Week04/Week04_SimpleSQL.pdf"
+      - Week 5 Lecture: "Lectures/Week05/Student_spatial_relationship.ipynb"
+      - Week 6 Lecture: "Lectures/Week06/Student_Dynamic_SQL copy.ipynb"
   - Labs:
       - Lab 01: "Labs/Lab01/Lab01.ipynb"
+      - Lab 02: "Labs/Lab02/Student_Lab02_SpatialData.pdf"
+      - Lab 03: "Labs/Lab03/Student_Lab03_SpatialData.pdf"
+      - Lab 04: "Labs/Lab04/Student_Lab04.ipynb"
  
