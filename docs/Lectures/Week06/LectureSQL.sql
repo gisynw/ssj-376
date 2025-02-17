@@ -28,8 +28,6 @@ language plpgsql;
 
 select fn_mid('software', 5,3)
 
-use parameter name and datatype
-
 -- Example 03 -- Parameter name and data type
 CREATE OR REPLACE FUNCTION fn_mid(word varchar, startPos integer, endPos integer)
 returns varchar
@@ -44,7 +42,7 @@ language plpgsql;
 select fn_mid('software', 5,3)
 
 -- Example 04: Inout parameter
-parameter type{in*|out|inout|VARIADIC**}  *DEFAULT **variable number of arguments
+-- parameter type{in*|out|inout|VARIADIC**}  *DEFAULT **variable number of arguments
 create or replace function fnSwap(inout num1 int, inout num2 int)
 as
 $$
