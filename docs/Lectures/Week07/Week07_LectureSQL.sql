@@ -106,6 +106,26 @@
 -- FROM ranked_airports
 -- WHERE rank_num <= 10;
 
+-- -- Finding the closet point on a road to a parcel of land
+SELECT DISTINCT ON (land.pid)
+land.addr_num || ' ' || full_str AS parcel,
+road.road_name AS road,
+ST_ClosestPoint(land.geom,road.geom) As snapped_point
+
+FROM ch09.land AS land INNER JOIN ch09.road AS road
+ON ST_DWithin(land.geom,road.geom,20.0)
+ORDER BY land.pid, ST_Distance(land.geom,road.geom);
+
+-- cluster locations by window functions
+SELECT land.pid, land.geom,
+COALESCE(land.addr_num || ' ','') || full_str AS address,
+ST_ClusterKMeans(land.geom, 4) OVER() AS kcluster,
+ST_ClusterDBSCAN(land.geom, 15, 2) OVER() AS dcluster
+FROM ch09.land AS land;
+
+
+
+
 
 
 
