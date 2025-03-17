@@ -64,13 +64,13 @@
 -- GROUP BY track_period 
 
 
--- -- ANALYZE THE RESULT
--- SELECT 
---     CAST(track_period AS timestamp),
---     CAST(t_start AS timestamp) AS t_start,    
---     CAST(t_end AS timestamp) AS t_end, 
---     ST_NPoints(geom) AS np, 
---     CAST(ST_Length(geom::geography) AS integer) AS dist_m, 
---     (t_end - t_start) AS dur               
--- FROM ch11.aussie_run;
+-- ANALYZE THE RESULT
+SELECT 
+    CAST(track_period AS timestamp),
+    CAST(t_start AS timestamp) AS t_start,    
+    CAST(t_end AS timestamp) AS t_end, 
+    ST_NPoints(geom) AS np, 
+    CAST(ST_Length(geom::geography) AS integer) AS dist_m, 
+    (t_end - t_start) AS dur               
+FROM ch11.aussie_run;
 
