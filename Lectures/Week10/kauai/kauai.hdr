@@ -1,0 +1,9 @@
+BYTEORDER      I
+LAYOUT       BIL
+NROWS         4169
+NCOLS         5174
+NBANDS        1
+NBITS         16
+BANDROWBYTES         10348
+TOTALROWBYTES        10348
+BANDGAPBYTES         0
