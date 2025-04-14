@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Leaflet with pg_tileserv</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.vectorgrid@1.3.0/dist/Leaflet.VectorGrid.min.js"></script>
+</head>
+<body>
+  <div id="map" style="height: 100vh;"></div>
+
+  <script>
+    const map = L.map('map').setView([40.7016, -73.9798], 10); // Use the center from JSON
+
+    // Optional basemap
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Add vector tile layer from pg_tileserv
+    const vectorTileLayer = L.vectorGrid.protobuf("http://localhost:7800/ch11.boroughs/{z}/{x}/{y}.pbf", {
+      vectorTileLayerStyles: {
+        // style the "boroughs" layer
+        boroughs: {
+          fill: true,
+          weight: 1,
+          fillColor: '#0080ff',
+          color: '#004080',
+          fillOpacity: 0.5,
+          opacity: 1
+        }
+      },
+      interactive: true
+    }).addTo(map);
+  </script>
+</body>
+</html>
